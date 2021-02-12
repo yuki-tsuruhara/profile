@@ -41,23 +41,12 @@ $(function() {
 
 // フェードイン２
 
-// ScrollReveal().reveal('.fadein', { 
-//    duration: 1600, 
-//    scale: 0.1,
-//    reset: true
-//  });
-
 ScrollReveal().reveal('.fadein', { 
    duration: 1600, 
    origin: 'top', 
    distance: '50px',
    reset: true   
  });
-
-// ScrollReveal().reveal('.fadein', { 
-//    duration: 1600,
-//    reset: true   
-//  });
 
 
 // ヘッダーアイコン
