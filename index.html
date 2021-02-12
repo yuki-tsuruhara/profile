@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ab6fac6300.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <title>自己紹介</title>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="container">
+      <div class="header_logo-area">
+        <a href="#" class="header_logo top_btn">Profile</a>
+      </div>
+      <div class="header_nav_wrapper">
+        <nav class="header_nav">
+          <ul class="header_nav_list">
+            <li><a href="#" class="top_btn header_nav_item">Home</a></li>
+            <li><a href="#about" class="js_nav header_nav_item">About</a></li>
+            <li><a href="#birth" class="js_nav header_nav_item">Birth</a></li>
+            <li><a href="#hobby" class="js_nav header_nav_item">Hobby</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="burger-btn">
+        <span class="bar bar-top"></span>
+        <span class="bar bar-middle"></span>
+        <span class="bar bar-bottom"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- トップイメージ -->
+  <div class="top-wrapper" id="bgimg-slider">
+    <div class="container">
+      <div class="center-logo">
+        <h1 class="center-title"></h1>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 自己紹介ページ -->
+  <div class="about area" id="about">
+    <div class="container fadein">
+      <h1 class="title">About Me</h1>
+      <div class="about_contents">
+        <div class="about_image">
+          <img class="img" src="./img/dog-2810484_1280.jpg" alt="">
+        </div>
+        <div class="about_table">
+          <table>
+            <tr>
+              <th>出身地</th>
+              <td>熊本県 人吉市</td>
+            </tr>
+            <tr>
+              <th>生年月日</th>
+              <td>1998年 11月 28日</td>
+            </tr>
+            <tr>
+              <th>血液型</th>
+              <td>A型</td>
+            </tr>
+            <tr>
+              <th>大学</th>
+              <td>崇城大学 工学部</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 出身地の紹介 -->
+  <div class="birth area" id="birth">
+    <div class="container fadein">
+      <h1 class="title">KUMAMOTO</h1>
+      <div class="birth_contents">
+        <div class="birth_item">
+          <img src="./img/castle-115034_1280.jpg" alt="">
+          <div class="birth_card">
+            <h3 class="birth_title">熊本城</h3>
+            <p class="birth_text">熊本のシンボル</br>加藤清正の手によって、慶長12（1607）年茶臼山を中心に築城
+            </p>
+          </div>
+        </div>
+        <div class="birth_item">
+          <img src="./img/blue-2567658_1280.jpg" alt="">
+          <div class="birth_card">
+            <h3 class="birth_title">イルカウォッチング</h3>
+            <p class="birth_text">熊本県天草市五和</br>約300頭のハンドウイルカが生息している</p>
+          </div>
+        </div>
+        <div class="birth_item">
+          <img src="./img/japan-4609581_1280.jpg" alt="">
+          <div class="birth_card">
+            <h3 class="birth_title">阿蘇山</h3>
+            <p class="birth_text">典型的な二重式の火山</br>火口原には約5万人が生活しています</br></br></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 趣味の紹介 -->
+  <div class="hobby area" id="hobby">
+    <div class="container fadein">
+      <h1 class="title">Hobby</h1>
+      <div class="hobby_contents">
+        <div class="hobby_item">
+          <img src="./img/ぶり.jpg" alt="">
+          <div class="hobby_card">
+            <h3 class="hobby_title">釣り</h3>
+            <p class="hobby_text">ジギングやエギング・アジングなどを色々やってます！</br>
+            </p>
+          </div>
+        </div>
+        <div class="hobby_item">
+          <img src="./img/マレーシア.jpg" alt="">
+          <div class="hobby_card">
+            <h3 class="hobby_title">旅行</h3>
+            <p class="hobby_text">海外は５か国ほど行った経験があります！</br></p>
+          </div>
+        </div>
+        <div class="hobby_item">
+          <img src="./img/ダイヤ.png" alt="">
+          <div class="hobby_card">
+            <h3 class="hobby_title">ゲーム</h3>
+            <p class="hobby_text">APEXというゲームが好きで、ほぼ毎日やってます！</br></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/jquery.bgswitcher.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
