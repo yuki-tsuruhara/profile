@@ -1,6 +1,6 @@
 jQuery(function($) {
    $('#bgimg-slider').bgSwitcher({
-    images: ['https://yuki-tsuruhara.github.io/profile/img/japan-3002336_1920.jpg','https://yuki-tsuruhara.github.io/profile/img/night-452706_1920.jpg','https://yuki-tsuruhara.github.io/profile/img/cherry-blossoms-301251_1920.jpg'],
+    images: [https://yuki-tsuruhara.github.io/profile/img/japan-3002336_1920.jpg,https://yuki-tsuruhara.github.io/profile/img/night-452706_1920.jpg,https://yuki-tsuruhara.github.io/profile/img/cherry-blossoms-301251_1920.jpg],
     effect: "fade",
     easing: "linear",
     duration:1500
